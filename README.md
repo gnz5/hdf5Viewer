@@ -15,4 +15,17 @@ Dependencies:
 
 1) Clone the repo
 2) Install dependencies
-2) Configure the flask server to run
+3) Configure the flask server in backend/run.py (optional)
+4) Configure the node server in frontend/package.json (optional)
+5) Start the flask server
+        cd backend
+        python run.py
+        
+6) Install node.js packages
+        cd frontend
+        npm install
+7) Start the node server (must be in the folder containing package.json)
+        npm start
+        
+8) If using default configurations, go to localhost:5000 in your browser to use the application.
+        
